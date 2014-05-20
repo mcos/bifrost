@@ -7,5 +7,5 @@ BIFROST="bifrost"
 RBN_PI="rbn-pi"
 FOREVER="forever"
 
-cd ${PI_HOME}/${BIFROST} && sudo ${FOREVER} start ${RBN_PI}.js
+cd ${PI_HOME}/${BIFROST} && sudo DEBUG=base,websocket ${FOREVER} start ${RBN_PI}.js
 
