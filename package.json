@@ -18,7 +18,12 @@
     "grunt-rsync-2": "~0.1.2",
     "grunt-contrib-watch": "~0.5.3",
     "grunt-simple-mocha": "~0.4.0",
-    "grunt-coffeelint": "0.0.8"
+    "grunt-coffeelint": "0.0.8",
+    "glob": "^4.0.0",
+    "time-grunt": "^0.3.1",
+    "grunt-jslint": "^1.1.12",
+    "grunt-contrib-jshint": "^0.10.0",
+    "jshint-stylish": "^0.2.0"
   },
   "dependencies": {
     "debug": "~0.7.4",
@@ -28,18 +33,6 @@
     "npm": "~1.4.3",
     "getmac": "~1.0.5",
     "q": "~1.0.0",
-    "pkginfo" : "~0.3.0",
-    "bifrost-hub": "git+ssh://git@github.com/robinpowered/bifrost-hub.git",
-    "rbn-websocket": "git+ssh://git@github.com/robinpowered/rbn-websocket.git",
-    "rbn-ble": "git+ssh://git@github.com/robinpowered/rbn-ble.git",
-    "rbn-rfid": "git+ssh://git@github.com/robinpowered/rbn-rfid.git",
-    "rbn-arduino": "git+ssh://git@github.com/robinpowered/rbn-arduino.git"
-  },
-  "TODO": {
-    "bifrost-hub": "git+ssh://git@github.com/robinpowered/bifrost-hub.git",
-    "rbn-ble": "git+ssh://git@github.com/robinpowered/rbn-ble.git",
-    "rbn-websocket": "git+ssh://git@github.com/robinpowered/rbn-websocket.git",
-    "rbn-rfid": "git+ssh://git@github.com/robinpowered/rbn-rfid.git",
-    "rbn-arduino": "git+ssh://git@github.com/robinpowered/rbn-arduino.git"
+    "pkginfo": "~0.3.0"
   }
 }

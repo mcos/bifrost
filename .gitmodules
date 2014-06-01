@@ -1,0 +1,12 @@
+[submodule "lib/modules/rbn-websocket"]
+	path = lib/modules/rbn-websocket
+	url = git@github.com:robinpowered/rbn-websocket.git
+[submodule "lib/modules/rbn-rfid"]
+	path = lib/modules/rbn-rfid
+	url = git@github.com:robinpowered/rbn-rfid.git
+[submodule "lib/modules/rbn-arduino"]
+	path = lib/modules/rbn-arduino
+	url = git@github.com:robinpowered/rbn-arduino.git
+[submodule "lib/modules/rbn-ble"]
+	path = lib/modules/rbn-ble
+	url = git@github.com:robinpowered/rbn-ble.git

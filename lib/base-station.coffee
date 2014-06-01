@@ -4,6 +4,7 @@ winston = require "winston"
 getmac = require "getmac"
 debug = require 'debug'
 os = require 'os'
+path = require 'path'
 
 # Currently, transports are auto-detected from the config.json
 # In the future, they should be specified in the package.json and auto-loaded
@@ -12,10 +13,10 @@ config = require '../config.json'
 # Require the transports and interfaces
 loadedTransports = {}
 for name, options of config.transports
-  loadedTransports[name] = require name
+  loadedTransports[name] = require path.resolve(__dirname,"modules/#{name}")
 loadedInterfaces = {}
 for name, options of config.interfaces
-  loadedInterfaces[name] = require name
+  loadedInterfaces[name] = require path.resolve(__dirname, "modules/#{name}")
 
 # TODO - refactor debug logging to winston logging for remote logs
 winston.remove winston.transports.Console
